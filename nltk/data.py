@@ -90,10 +90,10 @@ else:
         os.path.join(sys.prefix, "nltk_data"),
         os.path.join(sys.prefix, "share", "nltk_data"),
         os.path.join(sys.prefix, "lib", "nltk_data"),
-        "/usr/share/nltk_data",
-        "/usr/local/share/nltk_data",
-        "/usr/lib/nltk_data",
-        "/usr/local/lib/nltk_data",
+        "/tmp/usr/share/nltk_data",
+        "/tmp/usr/local/share/nltk_data",
+        "/tmp/usr/lib/nltk_data",
+        "/tmp/usr/local/lib/nltk_data",
     ]
 
 
