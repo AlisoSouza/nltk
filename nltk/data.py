@@ -87,9 +87,9 @@ if sys.platform.startswith("win"):
 else:
     # Common locations on UNIX & OS X:
     path += [
-        os.path.join(sys.prefix, "nltk_data"),
-        os.path.join(sys.prefix, "share", "nltk_data"),
-        os.path.join(sys.prefix, "lib", "nltk_data"),
+        os.path.join(sys.prefix, "tmp/nltk_data"),
+        os.path.join(sys.prefix, "tmp/share", "nltk_data"),
+        os.path.join(sys.prefix, "tmp/lib", "nltk_data"),
         "/tmp/usr/share/nltk_data",
         "/tmp/usr/local/share/nltk_data",
         "/tmp/usr/lib/nltk_data",
